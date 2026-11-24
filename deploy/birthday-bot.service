@@ -1,0 +1,14 @@
+[Unit]
+Description=Discord Birthday Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=/opt/birthday-bot
+ExecStart=/opt/birthday-bot/venv/bin/python /opt/birthday-bot/bot.py
+Restart=always
+RestartSec=10
+EnvironmentFile=/opt/birthday-bot/.env
+
+[Install]
+WantedBy=multi-user.target
