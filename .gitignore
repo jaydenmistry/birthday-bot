@@ -1,7 +1,20 @@
+# secrets
 .env
-venv/
-__pycache__/
-*.pyc
-birthdays.db
-birthdays.db.*
+*.env
+!.env.example
+
+# data
+*.db
 *.db-journal
+*.db-wal
+*.db-shm
+*.db.*
+
+# python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
