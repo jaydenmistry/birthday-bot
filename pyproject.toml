@@ -8,6 +8,8 @@ version = "1.0.0"
 description = "Discord bot that announces member birthdays."
 readme = "README.md"
 requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
 dependencies = ["discord.py>=2.7,<3"]
 
 [project.scripts]

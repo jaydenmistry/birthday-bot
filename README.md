@@ -107,3 +107,7 @@ venv/bin/python -m unittest discover -s tests -t . -v
 # run locally against a test server
 DISCORD_BOT_TOKEN=... BIRTHDAY_DB=./birthdays.db venv/bin/python -m birthday_bot
 ```
+
+## License
+
+[MIT](LICENSE)
